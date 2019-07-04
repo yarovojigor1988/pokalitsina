@@ -62,6 +62,10 @@ body {
     color: #db6435;
 }
 
+.bold_text{
+    font-weight: 900;
+}
+
 .dropshipping_header{
     font-family: 'Montserrat', 'open sans', Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -144,7 +148,7 @@ body {
     z-index: 30;
 }
 
-.tm_header{
+.text_header{
     text-transform: uppercase;
     font-family: 'Montserrat', 'open sans', Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -171,18 +175,9 @@ body {
     width: 100%;
 }
 
-.tm_btn{
-    position: absolute;
-    cursor: pointer;
-    left: 50%;
-    bottom: 60px;
-    z-index: 30;
-    margin-left: 15px;
+.btn_all{
     width: 260px;
     height: 60px;
-    color: #fff;
-    background-color: #63827d;
-    z-index: 30;
     text-align: center;
     border-radius: 4px;
     font-family: 'roboto', 'open sans', Arial, Helvetica, sans-serif;
@@ -190,4 +185,71 @@ body {
     font-weight: 700;
     line-height: 60px;
     text-transform: uppercase;
+}
+
+.tm_btn{
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    bottom: 60px;
+    z-index: 30;
+    margin-left: 15px;
+    color: #fff;
+    background-color: #63827d;
+    z-index: 30;
+
+}
+
+.partners_block{
+    margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;;
+}
+
+.partners_header{
+    margin-bottom: 30px;
+}
+
+.partners_title{
+    color: #405073;
+    font-family: 'roboto', 'open sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 100px;
+}
+
+.partners_start-work{
+    display: flex;
+    transform: translateY(15px);
+}
+
+.partners_title-end{
+    font-family: 'Montserrat', 'open sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 55px;
+    line-height: 60px;
+
+}
+
+.partners_btn{
+    color: #1f1f1f;
+    background-color: #f8b54a;
+}
+
+.partners_col-title{
+    color: #000;
+    font-family: 'roboto', 'open sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.partners_img-holder{
+    margin-bottom: 35px;
+}
+
+.partners_col{
+    margin-bottom: 170px;
 }
